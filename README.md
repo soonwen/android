@@ -10,13 +10,15 @@
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
-        tfhr_sel_zhouqi = (TextView) findViewById(R.id.text_tfhr_tjzq);
-        tfhr_sel_xzriqi = (TextView) findViewById(R.id.text_tfhr_rqxz);
-        tfhr_sel_tjzq = (LinearLayout) findViewById(R.id.ll_tfhr_tjzq);
-        tfhr_sel_tjzq.setOnClickListener(new View.OnClickListener() {
+        sel_zhouqi = (TextView) findViewById(R.id.text_tfhr_tjzq);
+        sel_xzriqi = (TextView) findViewById(R.id.text_tfhr_rqxz);
+        sel_tjzq = (LinearLayout) findViewById(R.id.ll_tfhr_tjzq);
+        sel_tjzq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openDatePicker(v);
             }
         });
     }
+
+
