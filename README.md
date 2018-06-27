@@ -20,5 +20,11 @@
             }
         });
     }
+运行起来效果
+http://192.144.129.98:10890/imgsrv/datapicker/1_0.png
 
+控件选择月效果
+http://192.144.129.98:10890/imgsrv/datapicker/1_1.png
 
+控件选择日效果
+http://192.144.129.98:10890/imgsrv/datapicker/1_2.png
