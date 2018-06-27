@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_tfhr_tjzq"
+        android:layout_width="match_parent"
+        android:layout_height="144px"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_layout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20px"
+                android:text="统计周期："
+                android:textSize="42px" />
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="60px"
+                android:background="@drawable/shape_layout"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/text_tfhr_tjzq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="月" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/sanjiao" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_layout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:text="日期选择："
+                android:textSize="42px" />
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/shape_layout"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/text_tfhr_rqxz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="2018-05-17" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
